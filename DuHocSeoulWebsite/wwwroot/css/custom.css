@@ -10,8 +10,45 @@
     background: #f7f7f7;
 }
 
-    @media(max-width: 768px) {
-        .modal-dialog {
-            min-height: calc(100vh - 20px);
-        }
+#back-to-top {
+    z-index: 999999999 !important;
+    bottom: 4px !important;
+    right: 8px !important;
+}
+
+#zalo-position {
+    bottom: 166px !important;
+    right: -1px !important;
+}
+
+.fb_dialog.fb_dialog_advanced {
+    bottom: 119px !important;
+    right: -7px !important;
+}
+
+.fb_dialog iframe {
+    bottom: 119px !important;
+    right: -7px !important;
+}
+
+.fb-customerchat.fb_invisible_flow.fb_iframe_widget span iframe {
+    bottom: 50px !important;
+    right: 46px !important;
+    z-index: 2147483647 !important;
+}
+
+.fb_dialog.fb_dialog_mobile {
+    bottom: 119px !important;
+    right: -7px !important;
+}
+@media(max-width: 768px) {
+    .modal-dialog {
+        min-height: calc(100vh - 20px);
     }
+
+    .fb-customerchat.fb_invisible_flow.fb_iframe_widget span iframe {
+        bottom: 166px !important;
+        right: 0px !important;
+        z-index: 2147483647 !important;
+    }
+}
