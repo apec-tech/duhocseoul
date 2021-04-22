@@ -13,24 +13,24 @@
 .back-to-top {
     z-index: 999999999 !important;
     bottom: -3px !important;
-    right: 8px !important;
+    right: 2px !important;
     width: 45px !important;
     height: 45px !important;
     line-height: 45px !important;
 }
 
 #zalo-position {
-    bottom: 166px !important;
+    bottom: 116px !important;
     right: -1px !important;
 }
 
 .fb_dialog.fb_dialog_advanced {
-    bottom: 119px !important;
+    bottom: 69px !important;
     right: -7px !important;
 }
 
 .fb_dialog iframe {
-    bottom: 119px !important;
+    bottom: 69px !important;
     right: -7px !important;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .fb_dialog.fb_dialog_mobile {
-    bottom: 119px !important;
+    bottom: 69px !important;
     right: -7px !important;
 }
 @media(max-width: 768px) {
@@ -50,7 +50,7 @@
     }
 
     .fb-customerchat.fb_invisible_flow.fb_iframe_widget span iframe {
-        bottom: 166px !important;
+        bottom: 116px !important;
         right: 0px !important;
         z-index: 2147483647 !important;
     }
