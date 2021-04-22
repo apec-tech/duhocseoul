@@ -10,10 +10,13 @@
     background: #f7f7f7;
 }
 
-#back-to-top {
+.back-to-top {
     z-index: 999999999 !important;
-    bottom: 4px !important;
+    bottom: -3px !important;
     right: 8px !important;
+    width: 45px !important;
+    height: 45px !important;
+    line-height: 45px !important;
 }
 
 #zalo-position {
@@ -50,5 +53,9 @@
         bottom: 166px !important;
         right: 0px !important;
         z-index: 2147483647 !important;
+    }
+
+    .copyright {
+        margin-bottom: 20px !important;
     }
 }

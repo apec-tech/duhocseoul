@@ -39,12 +39,12 @@
    2. GENERAL
    ========================================================================== */
 body {
-  font-family: 'Poppins', sans-serif;
-  color: #333;
-  font-size: 14px;
-  font-weight: 400;
-  background: #fff;
-  overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    font-size: 15px;
+    font-weight: 400;
+    background: #fff;
+    overflow-x: hidden;
 }
 
 html {
@@ -52,7 +52,7 @@ html {
 }
 
 p {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 26px;
 }
 
@@ -126,7 +126,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 .section-header .section-subtitle {
   margin-top: 15px;
   color: #333;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
 }
 
