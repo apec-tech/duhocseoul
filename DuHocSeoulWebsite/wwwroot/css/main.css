@@ -41,7 +41,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     color: #333;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     background: #fff;
     overflow-x: hidden;
@@ -52,7 +52,7 @@ html {
 }
 
 p {
-  font-size: 15px;
+  font-size: 14px;
   line-height: 26px;
 }
 
@@ -124,9 +124,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .section-header .section-subtitle {
-  margin-top: 15px;
+  margin-top: 14px;
   color: #333;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
 }
 
@@ -958,7 +958,7 @@ button:focus {
 
 .pricing-table .pricing-details ul li {
   padding: 10px;
-  font-size: 15px;
+  font-size: 14px;
   border-bottom: 1px dotted #f1f1f1;
 }
 
@@ -1023,7 +1023,7 @@ button:focus {
 }
 
 .testimonial-item .testimonial-text h3 {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 700;
 }
 
