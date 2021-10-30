@@ -20,8 +20,9 @@
 }
 
 #zalo-position {
-    bottom: 116px !important;
-    right: -1px !important;
+    bottom: 135px !important;
+    right: 6px !important;
+    z-index: 2147483647 !important;
 }
 
 .fb_dialog.fb_dialog_advanced {
