@@ -12,11 +12,8 @@
 
 .back-to-top {
     z-index: 999999999 !important;
-    bottom: -3px !important;
-    right: 2px !important;
-    width: 45px !important;
-    height: 45px !important;
-    line-height: 45px !important;
+    bottom: 4px !important;
+    right: 9px !important;
 }
 
 #zalo-position {
