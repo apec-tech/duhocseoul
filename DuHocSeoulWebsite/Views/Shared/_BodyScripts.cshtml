@@ -1,10 +1,22 @@
-﻿<!-- Load Facebook SDK for JavaScript -->
+﻿<!-- Messenger Plugin chat Code -->
 <div id="fb-root"></div>
+
+<!-- Your Plugin chat code -->
+<div id="fb-customer-chat" class="fb-customerchat" theme_color="#28a745">
+</div>
+
+<script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "857153267675633");
+    chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
 <script>
     window.fbAsyncInit = function () {
         FB.init({
             xfbml: true,
-            version: 'v5.0'
+            version: 'v14.0'
         });
     };
 
@@ -14,17 +26,9 @@
         js = d.createElement(s); js.id = id;
         js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
         fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-
-<!-- Facebook chat -->
-<div class="fb-customerchat"
-     attribution=setup_tool
-     page_id="857153267675633"
-     theme_color="#36A6FF"
-     logged_in_greeting="Chúng tôi có thể giúp gì cho bạn?"
-     logged_out_greeting="Chúng tôi có thể giúp gì cho bạn?">
-</div>
+    }(document, 'script', 'facebook-jssdk'));
+</script>
 
 <!-- Zalo chat -->
 <div id="zalo-position" class="zalo-chat-widget" data-oaid="1377685335861013991" data-welcome-message="Chúng tôi có thể giúp gì cho bạn?" data-autopopup="0" data-width="350" data-height="420"></div>
-    <script src="https://sp.zalo.me/plugins/sdk.js"></script>
+<script src="https://sp.zalo.me/plugins/sdk.js"></script>

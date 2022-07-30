@@ -21,11 +21,12 @@
     right: 6px !important;
     z-index: 2147483647 !important;
 }
-
+/*
 .fb_dialog.fb_dialog_advanced {
     bottom: 69px !important;
     right: -7px !important;
 }
+*/
 
 .fb_dialog iframe {
     bottom: 69px !important;
@@ -42,6 +43,7 @@
     bottom: 69px !important;
     right: -7px !important;
 }
+
 @media(max-width: 768px) {
     .modal-dialog {
         min-height: calc(100vh - 20px);

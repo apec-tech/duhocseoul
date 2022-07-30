@@ -27,7 +27,7 @@ namespace DuHocSeoulWebsite
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            services.AddCors(options => options.AddPolicy("*", p => p.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader().AllowCredentials()));
+            services.AddCors(options => options.AddPolicy("AllowAll", p => p.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader().AllowCredentials()));
             services.AddRouting(options => options.LowercaseUrls = true);
             services.AddMvc().AddJsonOptions(options =>
             {
@@ -47,7 +47,7 @@ namespace DuHocSeoulWebsite
                 app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
-
+            app.UseCors("AllowAll");
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
